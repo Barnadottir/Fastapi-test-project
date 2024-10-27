@@ -10,6 +10,7 @@ python = "^3.11"
 fastapi = {extras = ["standard"], version = "^0.115.3"}
 numpy = "^2.1.2"
 pyjwt = "^2.9.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 
 
 [build-system]
