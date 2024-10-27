@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-fastapi-project"
+version = "0.1.0"
+description = ""
+authors = ["Oskar <baernstroem.oskar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["standard"], version = "^0.115.3"}
+numpy = "^2.1.2"
+pyjwt = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
